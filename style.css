@@ -1,4 +1,26 @@
-.body {
+* {
+    margin: 20px;
+    padding: 0;
+}
+
+body {
     background: #ccc;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li > a{ 
+    text-decoration: none;
+}
+
+ul >li > a:hover{ 
+    text-decoration: underline;
+}
+
+div.iframe, div.object {
+    border: 1px solid blue;
+    margin-bottom: 10px;
 }
 

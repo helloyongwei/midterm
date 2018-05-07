@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>我的页面</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <link rel="stylesheet" media="print" href="./print.css"/>
-    <link rel="stylesheet" media="(max-width: 500px)" href="./mobile.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="print" href="./print.css">
+    <link rel="stylesheet" media="(max-width: 500px)" href="./mobile.css">
 </head>
 <body>
-    <div>这是饥人谷期中考试!</div> 
-    <section>
-        <ul>
-            <li><a href="./style.css">style.css</a>: 设置默认样式</li>
-            <li><a href="./print.css">print.css</a>: 设备在打印时背景显示为green</li>
-            <li><a href="./mobile.css">mobile.css</a>: 设备宽小于500px时背景为red</li>
-            <li><a href="./main.js">main.js</a>: 控制台输出main.js</li>
-            <li><a href="./gbk.js">gbk.js</a>: 控制台输出gbk.js</li>
-            <li>svg: 如下所示</li>
-        </ul>
-    </section>
-    <div>
+    <h1>这是饥人谷期中考试!</h1> 
+    
+    <ul>
+        <li><a href="./style.css">style.css</a>: 设置默认样式</li>
+        <li><a href="./print.css">print.css</a>: 设备在打印时背景显示为green</li>
+        <li><a href="./mobile.css">mobile.css</a>: 设备宽小于500px时背景为red</li>
+        <li><a href="./main.js">main.js</a>: 控制台输出main.js</li>
+        <li><a href="./gbk.js">gbk.js</a>: 控制台输出gbk.js</li>
+        <li>svg: 如下所示</li>
+    </ul>
+    <div class="iframe">
         通过iframe标签引入, 注意修改这个标签的默认宽高
         <iframe src="./circle.svg" width="200px" height="200px"></iframe>
     </div>
 
-    <div>
+    <div class="object">
         通过object引入
         <object data="./circle.svg" type=""></object>
     </div>
