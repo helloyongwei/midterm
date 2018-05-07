@@ -1,0 +1,14 @@
+/* 在打印时生效 */
+
+.body{
+    background: green;
+}
+
+/* 
+也可以将上面的规则写到@media里面, 这样就不用在link中添加media属性了
+*/
+/*
+@media print and (max-width: 500px) {
+    //code
+}
+*/

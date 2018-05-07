@@ -1,0 +1,14 @@
+/* 在设备宽度小于500px时生效 */
+
+body {
+    background:red;
+}
+
+/* 
+也可以将上面的规则写到@media里面, 这样就不用在link中添加media属性了
+*/
+/*
+@media (max-width: 500px) {
+    //code
+}
+*/
